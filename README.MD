@@ -9,7 +9,7 @@
 
 ## Descrição do projeto
 
-Criação do projeto Tecboard realizado para o treinamento React19: JSX, componentes, form action e useState realizado na [Alura](https://www.alura.com.br).
+Criação do projeto Tecboard realizado para o treinamento [React19: JSX, componentes, form action e useState](https://www.alura.com.br/curso-online-react-19-jsx-componentes-form-action-usestate) realizado na Alura.
 
 O objetivo do projeto era criar uma página para cadastro de eventos de TI utilizando as tecnologias ensinadas no treinamento.
 
@@ -46,13 +46,11 @@ Além destes conhecimentos, serão incluídos mais detalhes não abordados diret
 
 ## 🔨 Funcionalidades do projeto
 
-O projeto será dividido em duas partes: `client` e `server`.
-
 O layout base da aplicação que será utilizado para o desenvolvimento será este:
 
 ![Imagem do layout](/public/tecboard-figma-preview.png)
 
-[Design no Figma](https://www.figma.com/proto/w1Uu8GmOlT8T2ivBb55FMN/Untitled?page-id=0%3A1&node-id=1-640)
+[Design no Figma](https://www.figma.com/community/file/1490097519019624965)
 
 <br />
 
@@ -76,7 +74,7 @@ Para executar o projeto, siga estes passos:
 $ git clone git@github.com:danilo-batista/tecboard.git
 
 # Acesse a pasta do projeto em seu computador via terminal ou editor de código:
-$ cd nome-do-projeto
+$ cd tecboard
 
 # Instale as dependências de projeto
 $ yarn install
