@@ -3,13 +3,11 @@ import prettier from "eslint-plugin-prettier";
 import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import globals from "globals";
-import tseslint from "typescript-eslint";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {
     languageOptions: {
-      parser: tseslint.parser,
       parserOptions: {
         ecmaFeatures: {
           jsx: true,
@@ -29,7 +27,6 @@ export default [
     plugins: {
       react: react, // A referência do plugin react
       reactHooks: reactHooks, // A referência do plugin react-hooks
-      tseslint: tseslint, // A referência do plugin typescript-eslint
       jsxA11y: jsxA11y, // A referência do plugin jsx-a11y
       prettier: prettier, // A referência do plugin prettier
     },    

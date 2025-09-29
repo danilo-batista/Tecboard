@@ -1,0 +1,50 @@
+@import "@/styles/main.css";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding-inline: 1.5rem;
+
+  @media (min-width: 425px) {
+    padding-inline: 1.75rem;
+  }
+}
+
+.cardContainer {
+  width: 100%;
+  max-width: 90%;
+  margin: 3rem auto 0 0;
+
+  @media (min-width: 768px) {
+    margin: 4rem auto 0;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+  margin-bottom: 4rem;
+
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.cardEvents {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}

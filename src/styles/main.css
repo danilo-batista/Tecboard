@@ -1,2 +1,98 @@
-@import url('./base/reset.css');
-@import url('./base/normalize.css');
+@import url("./base/reset.css");
+@import url("./base/normalize.css");
+
+:root {
+  /* Breakpoints */
+  --breakpoint-smallCellPhone: 320px;
+  --breakpoint-mediumCellPhone: 375px;
+  --breakpoint-cellPhone: 425px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-smallDesktop: 1024px;
+  --breakpoint-desktop: 1440px;
+  --breakpoint-largeDesktop: 2560px;
+
+  /* Spacings */
+  --spacing-xs: 0.5rem;
+  --spacing-s: 1rem;
+  --spacing-m: 1.5rem;
+  --spacing-l: 2.5rem;
+  --spacing-xl: 5rem;
+
+  /* Borders */
+  --border-tags: 0.25rem;
+  --border-main: 0.5rem;
+
+  /* Fonts */
+  --font-body: "Work Sans", sans-serif;
+  --font-title: "Orbitron", sans-serif;
+
+  --font-body-xl: 1.5rem;
+  --font-body-l: 1.25rem;
+  --font-body-m: 1rem;
+  --font-body-s: 0.875rem;
+  --font-body-xs: 0.625rem;
+  --font-h1: 4.75rem;
+  --font-h2: 3.75rem;
+  --font-h3: 3rem;
+  --font-h4: 2.5rem;
+  --font-h5: 2rem;
+  --font-h6: 1.5rem;
+
+  /* Line-height */
+  --lineHeight-body: 120%;
+  --lineHeight-title: 125%;
+
+  /* Colors */
+  --neutral-darkgreen: #06151a;
+  --neutral-darkgray: #212121;
+  --neutral-gray: #33353f;
+  --neutral-lightgray: #4A4949;
+  --neutral-white: #ffffff;
+  --primary-green: #17d9b1;
+
+  --gradient: linear-gradient(180deg, #17e4b9 0%, #091d24 100%);
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--primary-green);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-synthesis: none;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--neutral-darkgreen);
+  color: var(--neutral-white);
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-title);
+}
+
+a {
+  text-decoration: none;
+}

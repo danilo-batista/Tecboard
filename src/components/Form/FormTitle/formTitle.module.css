@@ -1,0 +1,9 @@
+@import "@/styles/main.css";
+
+.formTitle {
+    color: var(--neutral-white);
+
+    font-family: var(--font-body);
+    font-size: var(--font-body-l);
+    line-height: var(--lineHeight-title);
+}
