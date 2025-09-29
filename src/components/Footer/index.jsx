@@ -4,7 +4,7 @@ export function Footer() {
     return (
         <footer className={styles.footerCopyright}>
             <div>
-                <img src="/public/images/tecboard-logotipo.png" alt="Logotipo Tecboard" />
+                <img src="/images/tecboard-logotipo.png" alt="Logotipo Tecboard" />
                 <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais</p>
             </div>
             <a
