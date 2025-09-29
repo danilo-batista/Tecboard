@@ -1,0 +1,12 @@
+@import "@/styles/main.css";
+
+.title {
+    color: var(--neutral-white);
+
+    font-family: var(--font-title);
+    font-size: var(--font-body-l);
+    font-weight: 600;
+    line-height: var(--lineHeight-title);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

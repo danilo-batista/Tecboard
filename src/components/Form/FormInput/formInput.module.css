@@ -1,0 +1,32 @@
+@import "@/styles/main.css";
+
+.input {
+    padding: 0.5rem 1rem;
+
+    border-radius: 0.5rem;
+    border: 1px solid var(--neutral-lightgray);
+    background-color: transparent;
+
+    cursor: pointer;
+    color: var(--neutral-white);
+
+    &:hover {
+        border: 1px solid var(--neutral-white);
+    }
+
+    &::placeholder {
+        color: var(--neutral-lightgray);
+    }
+}
+
+input[type="date"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    color: var(--neutral-lightgray);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(0.25);
+}

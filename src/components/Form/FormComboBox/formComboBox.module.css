@@ -1,0 +1,19 @@
+@import "@/styles/main.css";
+
+.select {
+    padding: 0.5rem 1rem;
+
+    border-radius: 0.5rem;
+    border: 1px solid var(--neutral-lightgray);
+    background-color: transparent;
+
+    cursor: pointer;
+    padding-right: 1rem;
+
+    color: var(--neutral-lightgray);
+    /* color: var(--neutral-white); */
+
+    &:hover {
+        border: 1px solid var(--neutral-white);
+    }
+}
