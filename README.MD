@@ -1,15 +1,15 @@
-![Banner de apresentação do projeto Tecboard](/public/images/tecboard-banner.png)
+![Banner de apresentação do projeto Tecboard](public/images/tecboard-banner-1024.png)
 
 <h1>Tecboard</h1>
 
 <p style="display:flex;justify-content:space-around ">
-    <img src="https://img.shields.io/badge/STATUS-EM&nbsp;DESENVOLVIMENTO-999999?style=for-the-badge" alt="Badge de projeto em desenvolvimento.">
+    <img src="https://img.shields.io/badge/STATUS-FINALIZADO-81b72f?style=for-the-badge" alt="Badge de projeto em desenvolvimento.">
     <img src="https://img.shields.io/badge/REACT-Front&hyphen;end-61DAFB?style=for-the-badge&logo=REACT" alt="Badge da tecnologia utilizada para front-end.">
 </p><hr>
 
 ## Descrição do projeto
 
-Criação do projeto Tecboard realizado para o treinamento React19: JSX, componentes, form action e useState realizado na [Alura](https://www.alura.com/br).
+Criação do projeto Tecboard realizado para o treinamento React19: JSX, componentes, form action e useState realizado na [Alura](https://www.alura.com.br).
 
 O objetivo do projeto era criar uma página para cadastro de eventos de TI utilizando as tecnologias ensinadas no treinamento.
 
@@ -22,13 +22,13 @@ Além destes conhecimentos, serão incluídos mais detalhes não abordados diret
 
 ## Requisitos
 
-- [ ] Deverá ser fiel ao Figma disponibilizado
-- [ ] Deverá ser mobile-first(extra);
-- [ ] Deverá ter uma versão tablet(extra);
-- [ ] Deverá ter uma versão desktop;
-- [ ] Deverá usar media queries(extra);
-- [ ] Deverá usar uma solução de CSS-in-JS(extra);
-- [ ] Deverá usar o inglês como idioma de desenvolvimento(extra);
+- [x] Deverá ser fiel ao Figma disponibilizado
+- [x] Deverá ser mobile-first(extra);
+- [x] Deverá ter uma versão tablet(extra);
+- [x] Deverá ter uma versão desktop;
+- [x] Deverá usar media queries(extra);
+- [x] Deverá usar uma solução de CSS-in-JS(extra);
+- [x] Deverá usar o inglês como idioma de desenvolvimento(extra);
 
 <br />
 
@@ -36,7 +36,10 @@ Além destes conhecimentos, serão incluídos mais detalhes não abordados diret
 
 ### O que eu aprendi?
 
-Em breve...
+- Revisei os conceitos de componentes, Virtual DOM, destructuring, operadores spread e rest;
+- Diferente da proposta original, apliquei `CSS Modules` para praticar; 
+- Utilização do hook `useState()`;
+- Aprendi a usar funções diretamente no action do formulário via `formData.get()`;
   
 <br />
 
@@ -104,4 +107,4 @@ Acesse o endereço indicado em seu terminal.
 </p>
 <hr />
 
-Isto é um projeto de estudos realizado na Alura. | Conheça mais sobre a _Alura_ por meio da minha [indicação!](https://www.alura.com.br/indica-dev/danilo-batista)
+Isto é um projeto de estudos realizado na Alura. Conheça mais sobre a _Alura_ por meio da minha [indicação!](https://www.alura.com.br/indica-dev/danilo-batista)
