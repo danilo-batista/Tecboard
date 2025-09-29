@@ -1,32 +1,32 @@
-@import '@/styles/main.css';
+@import "@/styles/main.css";
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    padding: 1rem;
-    background-color: var(--neutral-darkgray);
+  padding: 1rem;
+  background-color: var(--neutral-darkgreen);
 }
 
 .header__brand {
+  &>svg {
+    display: block;
+    margin: 1rem;
+  }
+
+  &>img {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
     &>svg {
-        display: block;
-        margin: 1rem;
+      display: none;
     }
 
     &>img {
-        display: none;
+      display: block;
+      margin: 1rem 3.75rem;
     }
-
-    @media screen and (min-width: 768px) {
-        &>svg {
-            display: none;
-        }
-
-        &>img {
-            display: block;
-            margin: 1rem 3.75rem;
-        }
-    }
+  }
 }

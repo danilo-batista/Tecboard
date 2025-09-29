@@ -1,0 +1,9 @@
+@import "@/styles/main.css";
+
+.label {
+    color: var(--neutral-white);
+
+    font-family: var(--font-body);
+    font-size: var(--font-body-m);
+    line-height: var(--lineHeight-body);
+}

@@ -1,0 +1,67 @@
+@import "@/styles/main.css";
+
+.cardEvent {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    background-color: var(--neutral-darkgray);
+
+    @media (min-width: 768px) {
+        max-width: 17.625rem;
+    }
+}
+
+.cardEvent__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+    padding: 1.5rem 1rem;
+}
+
+.cardEvent__tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0.5rem;
+
+    border-radius: var(--border-tags);
+    background: var(--neutral-lightgray);
+
+    font-family: var(--font-title);
+    font-size: var(--font-body-xs);
+    font-weight: 700;
+    line-height: var(--lineHeight-body);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.cardEvent__date {
+    color: var(--neutral-white);
+
+    font-family: var(--font-body);
+    font-size: var(--font-body-s);
+    line-height: var(--lineHeight-body);
+}
+
+.cardEvent__title {
+    color: var(--neutral-white);
+
+    font-family: var(--font-title);
+    font-size: var(--font-h5);
+    font-weight: 700;
+
+    text-align: left;
+    line-height: var(--lineHeight-title);
+}
+
+.cardEvent__description {
+    color: var(--neutral-white);
+
+    text-align: left;
+    font-family: var(--font-body);
+    line-height: var(--lineHeight-body);
+}

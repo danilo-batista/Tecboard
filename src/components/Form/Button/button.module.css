@@ -1,0 +1,29 @@
+@import "@/styles/main.css";
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.5rem 1rem;
+  gap: 0.625rem;
+
+  border-radius: 0.5rem;
+  background-color: var(--primary-green);
+
+  color: var(--neutral-darkgray);
+  font-weight: 600;
+
+  &:hover {
+    background-color: var(--neutral-lightgray);
+  }
+
+  &:focus {
+    border: 1px solid var(--neutral-white);
+    background: var(--neutral-lightgray);
+  }
+
+  &:active {
+    background: var(--neutral-darkgray);
+  }
+}

@@ -1,0 +1,58 @@
+@import "@/styles/main.css";
+
+.footerCopyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem;
+    width: 100%;
+
+    text-align: center;
+    line-height: var(--lineHeight-body);
+    background-color: var(--neutral-darkgray);
+
+    & img {
+        height: 29px;
+        width: 156px;
+    }
+
+    & div {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        gap: 2rem;
+
+        & div {
+            text-align: right;
+        }
+    }
+}
+
+.footerCopyright__link {
+    padding: 1rem 3rem;
+
+    color: var(--neutral-white);
+    background-color: var(--neutral-darkgreen);
+
+    font-weight: 700;
+    border-radius: 0.75rem;
+
+    & span {
+        font-weight: 400;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.125rem;
+    }
+
+    @media screen and (min-width: 1440px) {
+        padding: 1.5rem 3rem;
+        font-size: 1.25rem;
+    }
+}
